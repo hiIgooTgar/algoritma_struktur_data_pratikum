@@ -1,8 +1,8 @@
-package igo_if24c;
+package pratikum_2;
 
 import java.util.Scanner;
 
-public class Igo_if24c {
+public class scanner {
     
 
     public static void main(String[] args) {
@@ -31,7 +31,8 @@ public class Igo_if24c {
                 break;
             case 3:
                 prodi = "Teknologi Informasi";
-                break;            default:
+                break;            
+            default:
                 prodi = "Tidak memilih program studi";
          }
         
