@@ -1,4 +1,4 @@
-package igo_if24c_pratikum_3;
+package igo_pratikum_3;
 import java.util.Scanner;
 
 public class tugas_pratikum3_no1 {
@@ -6,11 +6,15 @@ public class tugas_pratikum3_no1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
+        // input nilai Celcius menggunakan Scanner
         System.out.print("Masukkan nilai suhu Celcius = ");
         double celcius = input.nextDouble();
         
-        double fahreinhet= celcius*9/5+3;
+        // rumus Celcius Konversi ke Fahreinhet
+        double fahreinhet= celcius*9/5+32;
+        // rumus Celcius Konversi ke Reamur
         double reamur = celcius*4/5;
+        // rumus Celcius Konversi ke Kelvin
         double kelvin = celcius + 275.15;
         System.out.println("===========================");
         System.out.println("");
