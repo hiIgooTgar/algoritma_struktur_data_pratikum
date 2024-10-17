@@ -1,4 +1,4 @@
-package Pratikum_1;
+package igo_pratikum_1;
 
 public class Practice_first_pratikum {
 

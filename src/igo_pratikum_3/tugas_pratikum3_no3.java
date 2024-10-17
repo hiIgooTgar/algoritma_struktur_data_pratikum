@@ -9,9 +9,9 @@ public class tugas_pratikum3_no3 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
-        System.out.print("Masukkan bialngan 1 : ");
+        System.out.print("Masukkan bilangan 1 : ");
         int bilangan1 = input.nextInt();
-        System.out.print("Masukkan bialngan 2 : ");
+        System.out.print("Masukkan bilangan 2 : ");
         int bilangan2 = input.nextInt();
         System.out.println("");
         System.out.println("Bilangan 1 adalah = " + bilangan1);

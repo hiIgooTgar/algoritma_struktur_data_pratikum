@@ -1,4 +1,4 @@
-package pratikum_2;
+package igo_pratikum_2;
 import java.util.Scanner;
 
 public class practice_pratikum_2 {

@@ -1,4 +1,4 @@
-package pratikum_2;
+package igo_pratikum_2;
 
 public class vaiabel_tipe_data {
    
