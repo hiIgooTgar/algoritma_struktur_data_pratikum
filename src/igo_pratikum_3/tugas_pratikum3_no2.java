@@ -16,6 +16,7 @@ public class tugas_pratikum3_no2 {
         System.out.println("");
         System.out.println("Mndapatkan potongan harga sebesar Rp " + uang*diskon/100);
         System.out.println("");
+        //ubah type data double ke integer yaitu diskon
         int total = (int) (uang*diskon/100);
         System.out.println("Jadi harga setelah mendapat diskon adalah Rp " + (uang - total));
     }

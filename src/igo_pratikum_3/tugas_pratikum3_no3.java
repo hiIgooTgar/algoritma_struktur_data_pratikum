@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class tugas_pratikum3_no3 {
     
-    // menyimpan variabel di bersifat public 
+    // menyimpan variabel bersifat public (global)
     public static int penjumlahan, pengurangan, perkalian, pembagian;
 
     public static void main(String[] args) {
