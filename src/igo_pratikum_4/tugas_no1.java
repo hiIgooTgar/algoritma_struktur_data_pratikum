@@ -1,4 +1,4 @@
-package igo_if24c_p4;
+package igo_pratikum_4;
 // import Scanner
 import java.util.Scanner;
 
@@ -15,16 +15,17 @@ public class tugas_no1 {
         System.out.print("Masukkan angka anda : ");
         angka = input.nextInt();
         
+        // Cetak variabel angka
+        System.out.println("Angka anda : " + angka);
+        
         /* jika angka yang anda pilih dibagi 2 engga ada sisa atau 0 maka bilangan tersebut adalah
         bilangan genap dan jika bilangan anda ada sisa maka bilangan tersebut adalah bilangan ganjil*/
         if(angka % 2 == 0) {
-            System.out.println(angka + " Bilangan adalah Genap");
+            System.out.println(angka + " adalah bilangan Genap");
         } else {
-            System.out.println(angka + " Bilangan adalah Ganjil");
+            System.out.println(angka + " adalah bilangan Ganjil");
         }
         
-        // Cetak variabel angka
-        System.out.println("Angka anda : " + angka);
     }
     
 }

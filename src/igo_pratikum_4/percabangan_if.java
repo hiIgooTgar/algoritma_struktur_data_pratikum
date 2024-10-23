@@ -1,4 +1,4 @@
-package igo_if24c_p4;
+package igo_pratikum_4;
 // import Scanner
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package igo_if24c_p4;
+package igo_pratikum_4;
 // import Scanner
 
 import java.util.Scanner;
@@ -13,19 +13,19 @@ public class tugas_02 {
         double tinggiBadan;
         double beratBadanIdeal = 0;
         
-        // input jenis kelamin
         System.out.print("Masukkan jenis kelamin anda (L/P) : ");
+        // input jenis kelamin
         jenisKelamin = input.next().charAt(0);
         System.out.print("Masukkan tinggi badan anda : ");
         // input tinggi badan
         tinggiBadan = input.nextDouble();
         
         // Keterangan jk = Jenis Kelamin
-        /* Jika jk adalahh L/l maka hitunglah berat badan dengan rumus 
+        /* Jika jk adalah L/l maka hitunglah berat badan dengan rumus 
          (tinggiBadan - 100) - (0.1 * (tinggiBadan - 100)) */
         if(jenisKelamin == 'L' || jenisKelamin == 'l') {
             beratBadanIdeal = (tinggiBadan - 100) - (0.1 * (tinggiBadan - 100));
-        /* Jika jk adalahh L/l maka hitunglah berat badan dengan rumus 
+        /* Jika jk adalah P/p maka hitunglah berat badan dengan rumus 
          (tinggiBadan - 100) - (0.15 * (tinggiBadan - 100) */    
         } else if(jenisKelamin == 'P' || jenisKelamin == 'p') {
             beratBadanIdeal = (tinggiBadan - 100) - (0.15 * (tinggiBadan - 100));
