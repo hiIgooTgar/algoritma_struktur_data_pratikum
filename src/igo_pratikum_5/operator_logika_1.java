@@ -4,7 +4,7 @@ public class operator_logika_1 {
 
     public static void main(String[] args) {
         // mendeklarasikan variabel
-        boolean SIM = false;
+        boolean SIM = true;
         boolean STNK = true;
         
         // kita cek, jika kita punya SIM/bernilai true(1) dan punya STNK/bernilai true(1)
