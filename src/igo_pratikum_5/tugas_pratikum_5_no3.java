@@ -5,7 +5,7 @@ public class tugas_pratikum_5_no3 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int day = 0;
+        int day;
         String nameDay = "";
         
         
@@ -21,26 +21,29 @@ public class tugas_pratikum_5_no3 {
         System.out.print("Masukkan angka hari (1-7) : ");
         day = input.nextInt();
         
-         switch(nameDay) {
-            case "1":
+        System.out.println("");
+        System.out.print("Hari : ");
+        
+         switch(day) {
+            case 1 :
                 System.out.println("Senin");
                 break;
-            case "2" :
+            case 2 :
                 System.out.println("Selasa");
                 break;
-            case "3" :
+            case 3 :
                 System.out.println("Rabu");
                 break;
-            case "4" :
+            case 4 :
                 System.out.println("Kamis");
                 break;
-            case "5" :
+            case 5 :
                 System.out.println("Jum'at");
                 break;
-            case "6" :
+            case 6 :
                 System.out.println("Sabtu");
                 break;
-            case "7" :
+            case 7 :
                 System.out.println("Minggu");
                 break;
             default:
