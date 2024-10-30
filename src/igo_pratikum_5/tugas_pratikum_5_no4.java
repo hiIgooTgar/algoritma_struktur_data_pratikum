@@ -16,7 +16,7 @@ public class tugas_pratikum_5_no4 {
         System.out.println("Nilai anda : " + nilai);
         // kita cek, jika nilai lebih dari sama dengan 80 maka tampilkan "Nilai A"
         if(nilai >= 80) {
-            System.out.println("Nilai A");
+            System.out.print("Nilai A ");
             if(nilai >= 90) { // jika nilai lebih dari sama dengan 90 maka tampilkan "Sempurna"
                 System.out.println("Sempurna!");
             }
