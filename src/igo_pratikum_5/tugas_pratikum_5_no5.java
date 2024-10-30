@@ -14,22 +14,27 @@ public class tugas_pratikum_5_no5 {
         jumlah_pembelian = input.nextInt();
         // kita cek, jika jumlah_pembelian lebih dari 10 maka kita eksekusi
         if(jumlah_pembelian > 10) {
-            /* jika jumlah_pembelian lebih dari 10 dan harga_produk lebih dari 100000 maka mendapatkan diskon 15% */
+            /* jika jumlah_pembelian lebih dari 10 dan harga_produk lebih dari 100000 maka mendapatkan diskon 15%
+            dengan rumus diskon = harga_produk * jumlah_pembelian * 0.15; */
             if(harga_produk > 100000) { 
                 diskon = harga_produk * jumlah_pembelian * 0.15;
-            /* jika jumlah_pembelian lebih dari 10 dan harga_produk kurang dari 100000 maka mendapatkan diskon 10% */
+            /* jika jumlah_pembelian lebih dari 10 dan harga_produk kurang dari 100000 maka mendapatkan diskon 10% 
+                dengan rumus diskon = harga_produk * jumlah_pembelian * 0.1; */
             } else {
                 diskon = harga_produk * 0.1 * jumlah_pembelian;
             }
         } else {
-            /* jika jumlah_pembelian kurang dari 10 dan harga_produk lebih dari 50000 maka mendapatkan diskon 5% */
+            /* jika jumlah_pembelian kurang dari 10 dan harga_produk lebih dari 50000 maka mendapatkan diskon 5% 
+            dengan rumus diskon = harga_produk * jumlah_pembelian * 0.05;*/
              if(harga_produk > 50000) {
                 diskon = harga_produk * 0.05 * jumlah_pembelian;
-            /* (else) jika jumlah_pembelian kurang dari 10 dan harga_produk kurang dari 50000 maka mendapatkan diskon 2% */
+            /* (else) jika jumlah_pembelian kurang dari 10 dan harga_produk kurang dari 50000 maka mendapatkan diskon 2% 
+                dengan rumus diskon = harga_produk * jumlah_pembelian * 0.02;*/
             } else {
                 diskon = harga_produk * 0.02 * jumlah_pembelian;
             }
         }
+        System.out.println("Diskon yang diperoleh : " + diskon);
         // variabel total_harga rumuskan dengan harga_produk dikali jumlah_pembelian dikurangin diskon
         total_harga = (harga_produk * jumlah_pembelian) - diskon;
         // cetak total harga dengan memanggil variabel total_harga
