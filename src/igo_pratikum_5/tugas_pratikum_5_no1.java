@@ -1,9 +1,7 @@
 package igo_pratikum_5;
 // import Scanner
 import java.util.Scanner;
-
 public class tugas_pratikum_5_no1 {
-
     public static void main(String[] args) {
         // mendeklarasikan scanner
         Scanner input = new Scanner(System.in);
@@ -36,5 +34,4 @@ public class tugas_pratikum_5_no1 {
             System.out.println("Tidak Lulus");
         }
     }
-    
 }

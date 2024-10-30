@@ -1,20 +1,14 @@
 package igo_pratikum_5;
-// import Scanner
-import java.util.Scanner;
-
+import java.util.Scanner; // import Scanner
 public class tugas_pratikum_5_no3 {
-
     public static void main(String[] args) {
-        // mendeklarasikan scanner
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in); // mendeklarasikan scanner
         // mendeklarasikan variabel
         int day;
         String nameDay;
-        // Keterangan 1,2,3,4,5,6,7
-        System.out.println("Senin : 1 | Selasa : 2 | Rabu : 3 | kamis : 4 | Jum'at : 5 | Sabtu : 6 | Minggu : 7");
+        System.out.println("Senin : 1 | Selasa : 2 | Rabu : 3 | kamis : 4 | Jum'at : 5 | Sabtu : 6 | Minggu : 7"); // Keterangan 1,2,3,4,5,6,7
         System.out.println("");
-        // cetak perintah variabel day dengan type data Integer menggunakan Scanner
-        System.out.print("Masukkan angka hari (1-7) : ");
+        System.out.print("Masukkan angka hari (1-7) : "); // cetak perintah variabel day dengan type data Integer menggunakan Scanner
         day = input.nextInt();
         System.out.println("");
         System.out.print("Hari pilihan anda : ");
