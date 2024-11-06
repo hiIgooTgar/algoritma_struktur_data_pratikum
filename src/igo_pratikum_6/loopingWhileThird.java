@@ -6,10 +6,13 @@ public class loopingWhileThird {
         // mendeklarasian variabel
         int i = 1;
         
-        /* Misal nilai awalnya i = 0, kondisionalnya adalah i kurang dari sama dengan 5;*/
+        /* Misal nilai awalnya i = 1; kondisionalnya adalah
+        i kurang dari sama dengan 5 */
         while(i <= 5) {
-            System.out.println("Perulangan ke " + i + " While");
-            // dan diiterasikan bertambahkan 1 / ++(incerement)
+            /* Cetak perulangan sebanyak perintah kondisionalnya
+            yaitu kurang dari sama dengan 5 */
+            System.out.println("Perulangan ke " + i + " | While");
+            // dan diiterasikan bertambahkan 1 / ++ (incerement)
             i++;
         }
     }
