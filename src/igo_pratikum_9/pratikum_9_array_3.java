@@ -11,10 +11,13 @@ public class pratikum_9_array_3 {
         /* Misal nilai awalnya i = 0; kondisionalnya adalah i kurang dari 3;
         dan diiterasikan bertambahkan 1 / ++ increment*/
         for(int i = 0; i < 3; i++) {
-            /* Misal nilai awalnya j = 0; kondisionalnya adalah i kurang dari 3;
+        /* Misal nilai awalnya j = 0; kondisionalnya adalah j kurang dari 2;
         dan diiterasikan bertambahkan 1 / ++ increment*/
             for(int j = 0; j < 2; j++) {
+                /* Misal nilai awalnya k = 0; kondisionalnya adalah k kurang dari 2;
+                dan diiterasikan bertambahkan 1 / ++ increment*/
                 for(int k = 0; k < 2; k++) {
+                     // cetak perintah array tiga dimensi
                     System.out.print(cube[i][j][k] + " ");
                 }
                 System.out.println("");
