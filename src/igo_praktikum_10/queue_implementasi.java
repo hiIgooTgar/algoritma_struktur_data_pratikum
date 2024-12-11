@@ -38,7 +38,7 @@ public class queue_implementasi {
             System.out.println("Antrian kosong! tidak dapat menghapus antrian");
         } else {
             int removeValue = queueArray[front++];
-            System.out.println("Elemen" + removeValue + " dihapus dari antrian");
+            System.out.println("Elemen " + removeValue + " dihapus dari antrian");
         }
     }
     
@@ -70,7 +70,7 @@ public class queue_implementasi {
         Scanner input = new Scanner(System.in);  // mendeklarasikan Scanner
         
         // menginput variabel size dengan tipe data integer
-        System.out.print("Masukkan ukuran antrian ");
+        System.out.print("Masukkan ukuran antrian : ");
         int size = input.nextInt();
         
          // Mendeklarasikan Queue dengan nama queue serta mempunyai paramater size
