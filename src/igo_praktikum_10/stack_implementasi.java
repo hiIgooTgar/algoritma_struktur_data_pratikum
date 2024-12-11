@@ -4,13 +4,13 @@ import java.util.Stack; // Import Stack
 public class stack_implementasi {
 
     public static void main(String[] args) {
-        // Inisialisasi Stack
+        // Mendeklarasikan Stack dengan nama stack
         Stack<Integer> stack = new Stack<>();
         
         // Push item ke stack, yaitu ada 3 push
-        stack.push(1);
-        stack.push(2);
-        stack.push(3);
+        stack.push(1); // push 1
+         stack.push(2); // push 2
+        stack.push(3);  // push 3
         
         // tampilkan run file dari pop item stack 
         System.out.println("Pop : " + stack.pop());

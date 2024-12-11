@@ -1,10 +1,11 @@
 package igo_praktikum_10;
-import java.util.Scanner;
+import java.util.Scanner; // import Scanner
 
 public class queue_implementasi {
-    private final int maxSize;
-    private final int[] queueArray;
-    private int front;
+    private final int maxSize; // membuat variabel dengan modifier private bersifat konstanta dengan nama maxSize dengan tipe data integer
+    // membuat variabel dengan modifier private bersifat konstanta dengan nama queueArray dengan tipe data integer bersifat array
+    private final int[] queueArray; 
+    private int front; // membuat variabel dengan modifier private dengan nama top dengan tipe data integer
     private int rear;
     
     public queue_implementasi(int size) {
