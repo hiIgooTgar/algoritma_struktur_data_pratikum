@@ -26,17 +26,13 @@ public class selection_sort {
         }
         System.out.println("");
     }
-
-    public static void main(String[] args) {
-        int[] arr = {64, 25, 12, 22, 11};
-        
-        System.out.println("Array sebelum diurutkan : ");
-        printArray(arr);
-        
-        selectionSort(arr);
-        
-        System.out.println("Array setelah diurutkan : ");
-        printArray(arr);
-    }
     
+    public static void main(String[] args) {
+        int[] arr = {64, 25, 12, 22, 11}; /* mendeklarasikan variabel, yaitu varibel arr yang bersifat array dengan tipe data integer */
+        System.out.println("Array sebelum diurutkan : ");
+        printArray(arr); // memanggil method printArray dengan mempunyai parameter 
+        selectionSort(arr); // memanggil method selectionSort dengan mempunyai parameter 
+        System.out.println("Array setelah diurutkan : ");
+        printArray(arr); // memanggil method printArray dengan mempunyai parameter 
+    }
 }
