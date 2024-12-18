@@ -1,10 +1,9 @@
 package igo_praktikum_11;
-
 public class selection_sort {
-    
+     /* Membuat sebuah method dengan nama selectionSort dengan mempunyai parameter yaitu arr dengan tipe data integer serta bersifat array */
     static void selectionSort(int[] arr) {
-        int n = arr.length;
-        
+        int n = arr.length; // melakukan inisialisasi variabel
+        // syntax untuk melakukan sorting selection sort
         for(int i = 0; i < n - 1; i++) {
             int minIndex = i;
             
@@ -19,8 +18,9 @@ public class selection_sort {
             arr[minIndex] = temp;
         }
     }
-    
+     /* Membuat sebuah method dengan nama printArray dengan mempunyai parameter yaitu arr dengan tipe data integer serta bersifat array */
     static void printArray(int[] arr) {
+         // syntax untuk menampilkan hasil array
         for(int value : arr) {
             System.out.print(value + " ");
         }

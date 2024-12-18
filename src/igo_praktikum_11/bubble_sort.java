@@ -30,7 +30,7 @@ public class bubble_sort {
     }
     
     public static void main(String[] args) {
-        int[] arr = {64, 34, 25, 12, 22, 11, 90};  /* mendeklarasikan variabel, yaitu varibel nilai yang bersifat array dengan tipe data integer */
+        int[] arr = {64, 34, 25, 12, 22, 11, 90};  /* mendeklarasikan variabel, yaitu varibel arr yang bersifat array dengan tipe data integer */
         System.out.println("Array sebelum sorting");
         printArray(arr); // memanggil method printArray dengan mempunyai parameter 
         bubbleSort(arr); // memanggil method bubbleSort dengan mempunyai parameter
