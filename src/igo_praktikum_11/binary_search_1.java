@@ -29,8 +29,5 @@ public class binary_search_1 {
         if(status == false) {
             System.out.println(key + " tidak ditemukan dalam array");
         }
-    }
-    
-    
-    
+    } 
 }
