@@ -1,4 +1,4 @@
-package igo_pratikum_4;
+package igo_praktikum_4;
 
 public class percabangan_ternary {
 
