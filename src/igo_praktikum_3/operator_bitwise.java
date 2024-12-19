@@ -1,4 +1,4 @@
-package igo_pratikum_3;
+package igo_praktikum_3;
 
 public class operator_bitwise {
 
