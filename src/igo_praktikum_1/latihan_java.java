@@ -1,4 +1,4 @@
-package igo_pratikum_1;
+package igo_praktikum_1;
 
 public class latihan_java {
 
