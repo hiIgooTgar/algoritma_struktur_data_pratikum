@@ -1,6 +1,6 @@
-package igo_pratikum_9;
+package igo_praktikum_9;
 
-public class pratikum_9_array_3 {
+public class praktikum_9_array_3 {
 
     public static void main(String[] args) {
          /* mendeklarasikan array tiga dimensi dengan tipe data integer dan nama 

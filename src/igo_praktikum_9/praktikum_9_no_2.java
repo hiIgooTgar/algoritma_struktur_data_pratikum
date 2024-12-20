@@ -1,6 +1,6 @@
-package igo_pratikum_9;
+package igo_praktikum_9;
 
-public class pratikum_9_no_2 {
+public class praktikum_9_no_2 {
 
     public static void main(String[] args) {
         /* mendeklarasikan array dengan tipe data string dan
