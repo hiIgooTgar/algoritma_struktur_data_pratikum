@@ -1,4 +1,4 @@
-package igo_pratikum_5;
+package igo_praktikum_5;
 //import Scanner
 import java.util.Scanner;
 

@@ -1,7 +1,7 @@
-package igo_pratikum_5;
+package igo_praktikum_5;
 // import Scanner
 import java.util.Scanner;
-public class tugas_pratikum_5_no1 {
+public class tugas_praktikum_5_no1 {
     public static void main(String[] args) {
         // mendeklarasikan scanner
         Scanner input = new Scanner(System.in);

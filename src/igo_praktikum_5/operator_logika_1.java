@@ -1,4 +1,4 @@
-package igo_pratikum_5;
+package igo_praktikum_5;
 
 public class operator_logika_1 {
 
