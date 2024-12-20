@@ -1,4 +1,4 @@
-package igo_pratikum_7;
+package igo_praktikum_7;
 // import ArrayList
 import java.util.ArrayList;
 

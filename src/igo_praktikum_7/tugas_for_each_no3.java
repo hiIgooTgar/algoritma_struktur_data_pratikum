@@ -1,4 +1,4 @@
-package igo_pratikum_7;
+package igo_praktikum_7;
 import java.util.Scanner; // import Scanner
 public class tugas_for_each_no3 {
     public static void main(String[] args) {
