@@ -1,4 +1,4 @@
-package igo_pratikum_6;
+package igo_praktikum_6;
 
 public class loopingForSecond {
 
