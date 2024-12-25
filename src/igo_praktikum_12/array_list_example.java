@@ -18,15 +18,15 @@ public class array_list_example {
         anArray[9] = 1000;
         
         // cetak hasil variabel anArray dari index ke 0 - 9
-        System.out.println("Elemene index ke 0 :" + anArray[0]);
-        System.out.println("Elemene index ke 1 :" + anArray[1]);
-        System.out.println("Elemene index ke 2 :" + anArray[2]);
-        System.out.println("Elemene index ke 3 :" + anArray[3]);
-        System.out.println("Elemene index ke 4 :" + anArray[4]);
-        System.out.println("Elemene index ke 5 :" + anArray[5]);
-        System.out.println("Elemene index ke 6 :" + anArray[6]);
-        System.out.println("Elemene index ke 7 :" + anArray[7]);
-        System.out.println("Elemene index ke 8 :" + anArray[8]);
-        System.out.println("Elemene index ke 9 :" + anArray[9]);
+        System.out.println("Element index ke 0 :" + anArray[0]);
+        System.out.println("Element index ke 1 :" + anArray[1]);
+        System.out.println("Element index ke 2 :" + anArray[2]);
+        System.out.println("Element index ke 3 :" + anArray[3]);
+        System.out.println("Element index ke 4 :" + anArray[4]);
+        System.out.println("Element index ke 5 :" + anArray[5]);
+        System.out.println("Element index ke 6 :" + anArray[6]);
+        System.out.println("Element index ke 7 :" + anArray[7]);
+        System.out.println("Element index ke 8 :" + anArray[8]);
+        System.out.println("Element index ke 9 :" + anArray[9]);
     }
 }
